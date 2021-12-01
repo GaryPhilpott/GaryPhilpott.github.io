@@ -1,0 +1,387 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
+
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>Gary Philpott CV</title>
+  </head>
+  <body style="padding-left: 100px; padding-right: 100px;">
+    <script>
+      //Get the button:
+      mybutton = document.getElementById("totopBtn");
+
+      //When user scrolls
+      window.onscroll = function() {scrollFunction()};
+
+      function scrollFunction() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+          mybutton.style.display = "block";
+        } else {
+          mybutton.style.display = "none";
+        }
+      }
+
+// When the user clicks on button
+function totopFunction() {
+  document.body.scrollTop = 0; // For Safari
+  document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+}
+
+    </script>
+
+    <button onclick="totopFunction()" id="totopBtn" title="Go to top">Back To Top</button>
+
+    <div class="site-mobile-menu">
+      <div class="site-mobile-menu-header">
+        <div class="site-mobile-menu-close mt-3">
+          <span class="icon-close2 js-menu-toggle"></span>
+        </div>
+      </div>
+      <div class="site-mobile-menu-body"></div>
+    </div>
+    
+    <header class="site-navbar" role="banner">
+
+      <div class="container">
+        <div class="row align-items-center">
+          
+          <div class="col-12 col-md-10">
+            <nav class="site-navigation position-relative text-right" role="navigation" id="navbar">
+
+              <ul class="site-menu js-clone-nav mr-auto d-lg-block">
+                <li class="active"><a href="#home"><span>Home</span></a></li>
+
+                <li><a href="#aboutme"><span>About</span></a></li>
+
+                <li class="has-children">
+                  <a href="#Education">Education</a>
+                  <ul class="dropdown arrow-top">
+                    <li><a href="#yearone">Year One Results</a></li>
+                    <li class="has-children">
+                      <li class="has-children">
+                        <a href="#yeartwo">Year Two Results</a>
+                        <ul class="dropdown">
+                          <li><a href="year2proj.html">Year 2 Project</a></li>
+                        </ul>
+                      </li>
+                    <li><a href="#yearthree">Year Three Results</a></li>
+                    <li class="has-children">
+                      <a href="#yearfour">Year Four Results</a>
+                      <ul class="dropdown">
+                        <li><a href="year4proj.html">Year 4 Project</a></li>
+                      </ul>
+                    </li>
+                  </ul>
+                </li>
+
+                <li><a href="#workexperience"><span>Work Experience</span></a></li>
+
+                <li><a href="#areaofinterest"><span>Area of Interest</span></a></li>
+
+                <li><a href="#interests"><span>Interests & Achiev</span></a></li>
+
+               
+
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalcontact" style="background-color: transparent; background-repeat: no-repeat; border: none; cursor: pointer; overflow: hidden; outline: none; border-radius: 25px;">Contact Me</button>
+
+                <div class="modal fade" id="modalcontact" tabindex="-1" data-bs-backdrop="static">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h4 class="modal-title">My contact details</h4>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                        <p style="color: black; text-align: center;">Phone number: 0838386798</p>
+                        <p style="color: black; text-align: center;">Email       : garyphilpott15@gmail.com</p>
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Close</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+          <div class="d-inline-block d-xl-none ml-md-0 mr-auto py-3" style="position: relative; top: 3px;"><a href="#" class="site-menu-toggle js-menu-toggle text-white"><span class="icon-menu h3"></span></a></div>
+          </div>
+        </div>
+      </div>
+      
+    </header>
+    <section id="home" class="topics">
+      
+    <div class="image" style="background-image: url('images/hero_1.1.png');"></div>
+    </section>  
+    <div data-spy="scroll" data-target="#navbar" data-offset="0" >
+      <section id="aboutme" class="topics" style="border-left: black;">
+        <h1 style="color: black; text-align: center;">About Me</h>
+        <p style="color: black; text-align:justify;">I am a young student who has a problem-solving, ambitious and determined mindset. I am currently
+          undertaking my Fourth Year in my degree "Computing with IT Management". I
+          am a strong-willed student who works well as part of a team but also on an individual level. I am keen
+          to learn about how IT is used in today's business market. My personal strengths for example include
+          teamwork, Critical thinking, adaptiveness, communication and self motivation. I believe that I would be
+          a valuable member of your team while also gaining knowledge of the industry.
+           </p>
+      </section>  
+      <section id="Education" class="topics">
+        <h1 style="color: black; text-align: center;">Education</h1>
+        <section id="yearone">
+          <div class="container">
+            <h1 style="color: black; text-align: left;">Year One</h1>
+            <table class="table table-striped">
+              <thead>
+                <tr class="bg-info">
+                  <th> Class </th>
+                  <th> Grade </th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Critical skills development</td>
+                  <td>B+</td>
+                </tr>
+                <tr>
+                  <td>Discrete Mathematics</td>
+                  <td>A</td>
+                </tr>
+                <tr>
+                  <td>Business & Information systems</td>
+                  <td>B+</td>
+                </tr>
+                <tr>
+                  <td>Visual Design & UX</td>
+                  <td>C+</td>
+                </tr>
+                <tr>
+                  <td>Computer Architecture</td>
+                  <td>B</td>
+                </tr>
+                <tr>
+                  <td>Software Development 1</td>
+                  <td>B+</td>
+                </tr>
+                <tr>
+                  <td>Operating system fundamentals</td>
+                  <td>B</td>
+                </tr>
+                <tr>
+                  <td>Database fundamentals</td>
+                  <td>A</td>
+                </tr>
+                <tr>
+                  <td>Statistics</td>
+                  <td>B+</td>
+                </tr>
+                <tr>
+                  <td>Social media communications</td>
+                  <td>B</td>
+                </tr>
+                <tr>
+                  <td>Systems Analysis</td>
+                  <td>B+</td>
+                </tr>
+                <tr>
+                  <td>Software Development 2</td>
+                  <td>B+</td>
+                </tr>
+              </tbody>
+
+            </table>
+          </div>
+        </section>
+        <section id="yeartwo">
+          <div class="container">
+            <h1 style="color: black; text-align: left;">Year Two</h1>
+            <table class="table table-striped">
+              <thead>
+                <tr class="bg-info">
+                  <th> Class </th>
+                  <th> Grade </th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>IT Scripting & Automation</td>
+                  <td>B+</td>
+                </tr>
+                <tr>
+                  <td>Client side Web Development</td>
+                 <td>B+</td>
+                </tr>
+               <tr>
+                 <td>Discrete Mathematics 2</td>
+                 <td>A</td>
+               </tr>
+               <tr>
+                 <td>Advanced database technologies</td>
+                 <td>B-</td>
+                </tr>
+                <tr>
+                 <td>Network Fundementals</td>
+                 <td>B-</td>
+               </tr>
+               <tr>
+                  <td>Software Qual Ass & Testing</td>
+                  <td>A</td>
+                </tr>
+                <tr>
+                 <td><a href="year2proj.html">Second year Project</a></td>
+                  <td>B</td>
+               </tr>
+                <tr>
+                 <td>IT Services Management</td>
+                 <td>C+</td>
+               </tr>
+                <tr>
+                 <td>Information Security</td>
+                  <td>B+</td>
+               </tr>
+               <tr>
+                 <td>Database Admin & Analysis</td>
+                 <td>A</td>
+               </tr>
+               <tr>
+                 <td>Management Science</td>
+                 <td>A</td>
+               </tr>
+               <tr>
+                 <td>Routing & Switching Essentials</td>
+                 <td>A</td>
+               </tr>
+             </tbody>
+
+           </table>
+         </div>
+       </section> 
+     <section id="yearthree">
+      <div class="container">
+        <h1 style="color: black; text-align: left;">Year Three</h1>
+        <table class="table table-striped">
+          <thead>
+            <tr class="bg-info">
+              <th> Class </th>
+              <th> Grade </th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Advanced routing & switching</td>
+              <td>B</td>
+            </tr>
+            <tr>
+              <td>Big Data Technologies</td>
+              <td>B+</td>
+            </tr>
+            <tr>
+              <td>Innovation & Entrepreneurshp</td>
+              <td>B</td>
+            </tr>
+            <tr>
+              <td>Cloud Service & Distributed Computing</td>
+              <td>B+</td>
+            </tr>
+            <tr>
+              <td>Operating Systems</td>
+              <td>B</td>
+            </tr>
+            <tr>
+              <td>Server-side Web Development</td>
+              <td>B+</td>
+            </tr>
+            <tr>
+              <td>Experiential Learning</td>
+              <td>Pass</td>
+            </tr>
+          </tbody>
+
+        </table>
+      </div>
+    </section>
+    <section id="yearfour">
+      <div class="container">
+        <h1 style="color: black; text-align: left;">Year Four</h1>
+        <table class="table table-striped">
+          <thead>
+            <tr class="bg-secondary">
+              <th> Class </th>
+              <th> Grade </th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>N/A</td>
+              <td>N/A</td>
+            </tr>
+          </tbody>
+
+        </table>
+      </div>
+    </section>
+  </section>
+  <section id="workexperience" class="topics" style="border-left: black;">
+    <h1 style="color: black; text-align: center;">Work Experience : The State Laboratory</h>
+      <p style="color: black; text-align:justify;">For my Work Experience as part of my 3rd year course in IT Management I undertook a role
+        in The State Laboratory as an "ICT Intern". This role was a very diverse role and I was involved in 
+        many projects being rolled out into the infrastructure of the company.<br>
+        My day-to-day tasks included working with the helpdesk on any issues that may arise throughout the lab.
+        This could be using the active directory to reset a password, restarting email, file share, application Servers
+        as they were not working, moving assets and recording them on the local asset DB & much more. <br>
+        Also in my day to day tasks included rolling out updates using WSUS, Admin housekeeping tasks such as checking on backups and servers.
+        <br>
+        In my time in the State Laboratory I was also involved in major projects such as the rollout and configuration of the VoIP phone headsets,
+        Being a key player in the disaster recovery site configuration & Restoring old corrupted hard drives with important data on them.
+        </p>
+  </section>
+
+  <section id="areaofinterest" class="topics" style="border-left: black;">
+    <h1 style="color: black; text-align: center;">Area of interest</h>
+      <p style="color: black; text-align:justify;">For my Work Experience as part of my 3rd year course in IT Management I undertook a role
+      The section of work I am interested in is IT Security, Database analysis, Networking and IT Infrastructure. These lines of speciality intrigue me as there is such a large scope for projects to work on and to keep expanding my knowledge.
+    Furthermore I feel as If these subjects in college are my strong suit and I think I would perform best in a role under these specialities. </p>
+  </section>
+  <br>
+  <section id="interests" class="topics" style="border-left: black;">
+    <h1 style="color: black; text-align: center;">Interests & Achievements</h>
+      <p style="color: black; text-align:justify;">
+        <h1>Sports</h1>
+        <ol>
+          <li>Have played at a varsity Level for TU Dublin Tallaght campus Basketball men's team from 2018 - 2021</li>
+          <li>Was acting Public relations officer of the TUD Mens varsity team for 2 Seasons</li>
+          <li>Member of Flyefit Gym</li>
+          <li>Playing Premier 1 division football at Woodfarm FC</li>
+        </ol>
+
+        <h1>Academic</h1>
+        <ol>
+          <li>Completed Leaving Certificate</li>
+          <li>Best prototype in the second year Hackathon in TU Dublin - Tallaght Campus</li>
+          <li>Runner up in the second year Hackathon in TU Dublin - Tallaght Campus</li>
+        </ol>
+
+        <h1>Other</h1>
+        <ol>
+          <li>Completed Manual Handline training course wil SkillsTeam Training</li>
+          <li>Acheived a Bronze Gaisce Award</li>        
+        </ol>
+      </p>
+  </section>
+
+
+    </div>
+  
+
+
+    
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/button.js"></script>
+  </body>
+</html>
